@@ -1,0 +1,221 @@
+
+/* ................................... starthome........................................... */
+
+.home-one{
+    background-color: rgba(100,0,0,0.64);
+    
+}
+#home-text{
+    background-image: url(../img/events-heavenly-header.jpg); 
+    width: 100%;
+    height: 100vh;
+     background-repeat: no-repeat;
+     background-size: 100% 100%; 
+     color: white;
+     position: relative;
+    
+    
+   
+   
+}
+
+.home-contant h1 {
+    font-size: 60px;
+
+}
+
+
+.options-info {
+    background-color:#414658 ;
+    position: fixed;
+    left: -350px;
+    top: 0;
+    z-index: 99999999;
+    width: 20%;
+    height: 100%;
+    font-size: 25px;
+  
+     
+     align-items: flex-start;
+    
+   
+}
+.options-info a{
+    text-decoration: none;
+ display: flex;
+ margin-top: 80px;
+ margin-left: 40px;
+
+ color: white;
+
+
+
+    
+}
+.options-info a:hover{
+    color:red;
+}
+.fa-xmark{
+   
+    position: relative;
+    display: flex;
+    top: 7%;
+    left:80%;
+ 
+}
+.fa-xmark:hover{
+    color: red;
+}
+.fa-bars{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-left: 20px;
+    z-index: 522222224587777777774;
+    
+}
+.fa-bars p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+
+/*......................................................... end home...................................................... */
+
+/*................................................. start Details.................................................. */
+
+h4 {
+    display: block;
+    font-weight: bold;
+}
+.addressDetails1,.addressDetails2, .addressDetails3, .addressDetails4 {
+    background-color: rgb(230, 130, 130);
+    cursor: pointer;
+    color: white;
+    padding: 10px 0px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.theDetails1,.theDetails3,.theDetails4,.theDetails2 {
+    background-color: rgb(200, 200, 200);
+    padding: 10px 0px;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+
+/*................................................. end Details.................................................. */
+
+/*.............................................. start duration.................................................. */
+.duration{
+    background-image: url('../img/invitation-2508607__340.jpg');
+    background-size: 100%   100%;
+    height: 330px;
+    color: white;
+    border: 1px solid ;
+}
+
+.layerDuration{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+
+}
+.demo{
+    margin-top: 50px;
+    height: 150px;
+    width : 250px;
+     border: 1px solid white;
+    display: flex; 
+    justify-content: center;
+     align-items: center; 
+    font-size: 25px;
+    font-weight: 600;
+    color: white;  
+}
+
+
+
+
+/*............................................. end duration.................................................... */
+
+
+/*................................................. start contact................................................. */
+#contact .container {
+    height: 100vh;
+
+}
+.head{
+    margin-top: 150px;
+   
+}
+.head h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 40px;
+
+}
+.head-two h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.head-two p{
+    margin-bottom: 30px;
+}
+.icons i{
+    width: 30px;
+    padding-right: 5px;
+}
+.red{
+    color: red;
+}
+.fa-envelope{
+    color: #414658;
+}
+.social i{
+    margin-right: 10px;
+    width: 40px;
+    border: solid 1px #999 ;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+    transition: all 1s;
+   
+}
+.social i:hover {
+background-color:#D62E33;
+}
+.form-edit input{
+    margin-bottom: 20px;
+}
+.text {
+    height: 200px;
+}
+#hundrad {
+    color: #D62E33;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+.form-edit .btn{
+    border: 1px solid transparent;
+   background-color: #D62E33;
+   font-size: 20px;
+   margin-top: 10px;
+ 
+ 
+
+
+}
+.form-edit .btn:hover{
+    background-color: #D62E33;
+}
+/*................................................. end contact................................................. */
+
+
